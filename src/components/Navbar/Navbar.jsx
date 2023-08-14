@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="profile flex">
         <img
           className="logo"
-          src="/public/assets/logo.png"
+          src="/assets/logo.png"
           alt="profile picture"
         ></img>
         <h1 className="section-heading">Shashwat Topre</h1>
