@@ -50,12 +50,15 @@ ul {
   position: absolute;
   right: 20px;
 }
-
+/* ---------hover, active classes------------ */
 .organization-name:hover {
   background-color: white;
   box-shadow: 0px 0px 20px 0px rgba(38, 125, 255, 0.2);
 }
 
+.organization-name:active {
+  border: 2px solid #267dff;
+}
 /* -------------vertical scroll-------------- */
 .vertical-scroll {
   max-height: 67vh;
@@ -74,6 +77,6 @@ ul {
 
 .vertical-scroll::-webkit-scrollbar-thumb {
   background-color: #267dff;
-  border-radius: 2px;
-  height: 20px;
+  border-radius: 9px;
+  height: 10px;
 }

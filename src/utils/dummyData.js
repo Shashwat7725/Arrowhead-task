@@ -54,6 +54,29 @@ export const organisation = [
     senderEmail: "jayrathee23@gmail.com",
     senderPhone: "9406122323",
   },
+
+  {
+    id: 6,
+    firstName: "Vijay Sharma",
+    img: "/assets/Zomato_logo.png",
+    companyName: "Zomato",
+    date: "29/08/2023",
+    senderName: "Priti Shukla",
+    senderPost: "Durg",
+    senderEmail: "pritishukla3@gmail.com",
+    senderPhone: "9406122635",
+  },
+  {
+    id: 7,
+    firstName: "Rajesh Topre",
+    img: "/assets/Zomato_logo.png",
+    companyName: "Zomato",
+    date: "05/09/2023",
+    senderName: "Arpita Sharma",
+    senderPost: "Bhilai",
+    senderEmail: "arpitasharma2@gmail.com",
+    senderPhone: "9406145345",
+  },
 ];
 
 export default organisation;
