@@ -1,0 +1,35 @@
+.nav {
+  height: 10vh;
+  background-color: var(--primary-bg-color);
+  position: relative;
+}
+
+/*-------heading----------*/
+
+.heading-container {
+  height: 7vh;
+  width: 25vw;
+  background-color: white;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid rgb(38, 125, 255, 0.5);
+}
+
+.heading span {
+  color: var(--primary-text-color);
+}
+
+.profile {
+  height: 7vh;
+  align-items: center;
+  gap: 1vw;
+  position: absolute;
+  right: 40px;
+  top: 12px;
+}
+
+.logo {
+  width: 3vw;
+}

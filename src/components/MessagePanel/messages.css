@@ -1,0 +1,123 @@
+.messages-section {
+  width: 60vw;
+  margin-top: 10px;
+  height: 68vh;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  position: relative;
+}
+
+.first-lvl {
+  align-self: flex-end;
+  margin: 30px;
+}
+
+.emoji {
+  width: 2vw;
+  height: 2vw;
+  padding: 5px;
+  border: 2px solid #267dff;
+  border-radius: 7px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.sad {
+  filter: blur(2px);
+}
+
+.edit-btn {
+  width: 4vw;
+  height: 4vh;
+  border: 1px solid #267dff;
+  border-radius: 3px;
+  background-color: white;
+  color: #267dff;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.messages-container {
+  width: 55vw;
+  height: 47vh;
+  background-color: var(--primary-bg-color);
+  align-self: center;
+  border-radius: 5px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.messages-container::-webkit-scrollbar {
+  height: 4px;
+  scrollbar-width: 20px;
+  background-color: #267dff;
+}
+
+.btns {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  width: 110px;
+  height: 38px;
+  padding: 17px;
+  background-color: #267dff;
+  border-radius: 5px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 30px;
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+.btn-effect {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.a-effect {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "DMSans", sans-serif;
+}
+.a-effect:before,
+.a-effect:after {
+  position: absolute;
+  content: "Submit Task";
+  height: 50px;
+  width: 161px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.a-effect:before {
+  color: white;
+  background: #267dff;
+  transform: rotateY(0deg) translateZ(25px);
+}
+.a-effect:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+.a-effect:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}

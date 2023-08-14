@@ -1,0 +1,72 @@
+.message {
+  min-width: 22vw;
+  height: 44vh;
+  background-color: white;
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.message-index {
+  font-size: 1rem;
+  color: #267dff;
+  padding: 10px;
+}
+
+.message-content {
+  padding: 20px;
+}
+.message-info {
+  font-size: 11px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.lower-lvl {
+  justify-content: space-between;
+}
+.calendar-logo {
+  color: #267dff;
+  cursor: pointer;
+}
+
+.date-container {
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 35px;
+}
+
+.date-area {
+  font-size: 11px;
+  padding: 5.332px 10.664px;
+  border: 1px solid #267dff;
+  border-radius: 34px;
+  color: #267dff;
+}
+
+.interval-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.interval-input {
+  width: 3vw;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.msg-textarea {
+  width: 261px;
+  height: 358px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: "DM Sans", sans-serif;
+}

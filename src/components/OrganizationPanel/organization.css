@@ -1,0 +1,79 @@
+.organization-section {
+  width: 25vw;
+  height: 80vh;
+  background-color: var(--primary-bg-color);
+  border: 1px solid rgb(38, 125, 255, 0.05);
+  border-radius: 5px;
+  padding: 35px;
+  margin: 40px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.organization-name {
+  padding: 10px;
+  border: 1px solid rgb(38, 125, 255, 0.3);
+  border-radius: 5px;
+  align-items: center;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 30px;
+  width: 242px;
+}
+
+.org-logo {
+  width: 4vw;
+  margin-right: 30px;
+}
+
+.org-title {
+  max-width: 6vw;
+  overflow-x: auto;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Hide the track */
+}
+::-webkit-scrollbar {
+  width: 0.5em; /* Adjust the width to your preference */
+}
+
+/* Hide the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Hide the thumb */
+}
+
+.link {
+  color: #267dff;
+  position: absolute;
+  right: 20px;
+}
+
+.organization-name:hover {
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(38, 125, 255, 0.2);
+}
+
+/* -------------vertical scroll-------------- */
+.vertical-scroll {
+  max-height: 67vh;
+  overflow-y: scroll;
+}
+
+.vertical-scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 1vh;
+  scroll-behavior: smooth;
+}
+
+.vertical-scroll::-webkit-scrollbar-track {
+  background-color: var(--primary-bg-color);
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb {
+  background-color: #267dff;
+  border-radius: 2px;
+  height: 20px;
+}
