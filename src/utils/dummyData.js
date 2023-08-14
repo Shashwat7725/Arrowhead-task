@@ -2,7 +2,7 @@ export const organisation = [
   {
     id: 1,
     firstName: "Mukesh Kumar",
-    img: "/public/assets/Zomato_logo.png",
+    img: "/assets/Zomato_logo.png",
     companyName: "Zomato",
     date: "22/08/2023",
     senderName: "Jayant Yadav",
@@ -13,7 +13,7 @@ export const organisation = [
   {
     id: 2,
     firstName: "Suresh Kumar",
-    img: "/public/assets/Zomato_logo.png",
+    img: "/assets/Zomato_logo.png",
     companyName: "Zomato",
     date: "02/09/2023",
     senderName: "Jitesh Sharma",
@@ -24,7 +24,7 @@ export const organisation = [
   {
     id: 3,
     firstName: "Alakh Pandey",
-    img: "/public/assets/Zomato_logo.png",
+    img: "/assets/Zomato_logo.png",
     companyName: "Zomato Private Limited",
     date: "13/09/2023",
     senderName: "Dhruv Rathore",
@@ -35,7 +35,7 @@ export const organisation = [
   {
     id: 4,
     firstName: "Gopinanth Nanda",
-    img: "/public/assets/Zomato_logo.png",
+    img: "/assets/Zomato_logo.png",
     companyName: "Zomato",
     date: "03/09/2023",
     senderName: "Ashish Kumar",
@@ -46,7 +46,7 @@ export const organisation = [
   {
     id: 5,
     firstName: "Alok Nath",
-    img: "/public/assets/Zomato_logo.png",
+    img: "/assets/Zomato_logo.png",
     companyName: "Zomato",
     date: "27/08/2023",
     senderName: "Jay Rathee",
