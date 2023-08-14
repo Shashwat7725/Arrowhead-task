@@ -13,7 +13,7 @@
 }
 
 .task-container {
-  width: 17vw;
+  min-width: 17vw;
   height: 5vh;
   justify-content: space-between;
   align-items: center;
@@ -25,11 +25,16 @@
   margin-right: 20px;
 }
 
-ul {
-  list-style: none;
-}
 .number-logo {
   color: #ff2976;
+}
+
+.task-container:active {
+  border: 1px solid #267dff;
+}
+
+.task-container:hover {
+  background-color: #267dff40;
 }
 /* -------horizontal scroll------------ */
 

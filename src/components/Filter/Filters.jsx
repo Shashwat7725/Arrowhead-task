@@ -1,13 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Filter.css";
-import { PiNumberCircleSevenFill } from "react-icons/pi";
+import Filter from "./Filter";
 const Filters = () => {
-  const [color, setColor] = useState(false);
-  const handleClick = () => {};
   return (
     <div className="filter-section flex">
       <h1 className="filter-title">Filters</h1>
-      <ul className="horizontal-scroll flex">
+      <div className="horizontal-scroll flex">
+        <Filter difficulty={`Tough`} />
+        <Filter difficulty={`Moderate`} />
+        <Filter difficulty={`Easy`} />
+        <Filter difficulty={`Easy`} />
+        <Filter difficulty={`Tough`} />
+      </div>
+      {/* <ul className="horizontal-scroll flex">
         <li>
           <div className="task-container flex">
             <h1 className="section-heading">Tough Task</h1>
@@ -44,7 +49,7 @@ const Filters = () => {
             <PiNumberCircleSevenFill className="number-logo" />
           </div>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 };
