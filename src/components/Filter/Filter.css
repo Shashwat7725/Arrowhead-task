@@ -30,7 +30,7 @@
 }
 
 .task-container:active {
-  border: 1px solid #267dff;
+  border: 2px solid #267dff;
 }
 
 .task-container:hover {

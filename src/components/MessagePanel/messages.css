@@ -28,6 +28,10 @@
   filter: blur(2px);
 }
 
+.smile {
+  filter: blur(2px);
+}
+
 .edit-btn {
   width: 4vw;
   height: 4vh;
@@ -120,4 +124,12 @@
 }
 .a-effect:hover {
   transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.edit-btn:hover {
+  background-color: #267dff40;
+}
+
+.edit-btn:active {
+  border: 2px solid #267dff;
 }

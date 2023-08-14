@@ -4,13 +4,23 @@ import Message from "./Message";
 import organisation from "/src/utils/dummyData.js";
 
 const Messages = () => {
+  const [isBlur, setIsBlur] = useState(false);
+  const handleClick = () => {
+    setIsBlur((prevState) => !prevState);
+  };
   return (
     <section className="messages-section flex">
       <div className="first-lvl flex">
-        <div className="emoji sad flex">
+        <div
+          className={isBlur ? "emoji sad flex" : "emoji flex"}
+          onClick={handleClick}
+        >
           <span className="emoji-icon">😔</span>
         </div>
-        <div className="emoji smile flex">
+        <div
+          className={isBlur ? "emoji flex" : "emoji smile flex"}
+          onClick={handleClick}
+        >
           <span className="emoji-icon">😄</span>
         </div>
         <button type="button" className="edit-btn">

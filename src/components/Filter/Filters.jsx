@@ -12,44 +12,6 @@ const Filters = () => {
         <Filter difficulty={`Easy`} />
         <Filter difficulty={`Tough`} />
       </div>
-      {/* <ul className="horizontal-scroll flex">
-        <li>
-          <div className="task-container flex">
-            <h1 className="section-heading">Tough Task</h1>
-            <PiNumberCircleSevenFill className="number-logo" />
-          </div>
-        </li>
-        <li>
-          <div className="task-container flex">
-            <h1 className="section-heading">Moderate Task</h1>
-            <PiNumberCircleSevenFill className="number-logo" />
-          </div>
-        </li>
-        <li>
-          <div className="task-container flex">
-            <h1 className="section-heading">Easy Task</h1>
-            <PiNumberCircleSevenFill className="number-logo" />
-          </div>
-        </li>
-        <li>
-          <div className="task-container flex">
-            <h1 className="section-heading">Tough Task</h1>
-            <PiNumberCircleSevenFill className="number-logo" />
-          </div>
-        </li>
-        <li>
-          <div className="task-container flex">
-            <h1 className="section-heading">Easy Task</h1>
-            <PiNumberCircleSevenFill className="number-logo" />
-          </div>
-        </li>
-        <li>
-          <div className="task-container flex">
-            <h1 className="section-heading">Easy Task</h1>
-            <PiNumberCircleSevenFill className="number-logo" />
-          </div>
-        </li>
-      </ul> */}
     </div>
   );
 };
