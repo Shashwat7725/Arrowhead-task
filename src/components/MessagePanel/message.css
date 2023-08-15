@@ -2,9 +2,9 @@
   min-width: 22vw;
   height: 44vh;
   background-color: white;
-  align-items: center;
   margin: 10px;
   border-radius: 5px;
+  overflow-y: auto;
 }
 
 .message-index {
@@ -69,4 +69,6 @@ input::-webkit-inner-spin-button {
   outline: none;
   resize: none;
   font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  padding: 10px;
 }

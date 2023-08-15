@@ -9,7 +9,11 @@ const Organizations = () => {
       <div className="vertical-scroll">
         {organisation.map((values) => {
           return (
-            <Organization img={values.img} companyName={values.companyName} />
+            <Organization
+              id={values.id}
+              img={values.img}
+              companyName={values.companyName}
+            />
           );
         })}
       </div>
